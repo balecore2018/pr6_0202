@@ -37,6 +37,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Imaging, Version=22.12.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Imaging.22.12.0\lib\net40\Aspose.Imaging.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors, Version=5.4.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.5.4.0\lib\net462\MaterialDesignColors.dll</HintPath>
     </Reference>
@@ -146,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ic-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ic-mail.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />
